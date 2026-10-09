@@ -484,8 +484,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f3181a169b58af4cb5a8ba1cf1ec121, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jetstreambutton: {fileID: 1548896185}
-  jetstream: {fileID: 1548896182}
+  pen: {fileID: 1548896185}
+  followBelow: -1.7
 --- !u!1 &744742461
 GameObject:
   m_ObjectHideFlags: 0
@@ -1031,19 +1031,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1548896182}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96f3839e3a8229e409de4150ff557292, type: 3}
+  m_Script: {fileID: 11500000, guid: 9207a8173b912e24fb41800ed2ce0127, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knocked: 0
-  Clicked: 0
-  startPos: {x: 0, y: 0, z: 0}
-  knockPos: {x: 0, y: 0, z: 0}
-  outPos: {x: 0, y: 0, z: 0}
-  off1: {fileID: 1946321199}
-  off2: {fileID: 1172814596}
-  on2: {fileID: 1483085603}
-  AchivementBox: {fileID: 510021062}
-  AchivementText: {fileID: 510021064}
+  pressTop: 2
+  pressBottom: 1.15
+  clickY: 1.2
+  pressOffset: 1
+  tapTop: 2
+  tapOffset: 3
+  restY: -1
+  knockedY: -1.7
+  tapOffSound: {fileID: 1946321199}
+  releaseSound: {fileID: 1172814596}
+  knockSound: {fileID: 1483085603}
   gamemanager: {fileID: 510021063}
 --- !u!82 &1548896186
 AudioSource:

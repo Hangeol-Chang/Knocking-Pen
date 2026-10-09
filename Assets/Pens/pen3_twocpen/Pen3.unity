@@ -766,15 +766,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21b397fba53a414989942a5cda50b04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPos: {x: 0, y: 0, z: 0}
-  knockPos: {x: 0, y: 0, z: 0}
-  outPos: {x: 0, y: 0, z: 0}
-  off1: {fileID: 694272315}
-  Right: {fileID: 1734671297}
-  Left: {fileID: 1509799961}
-  empty: {fileID: 288574000}
-  AchivementBox: {fileID: 1877234537}
-  AchivementText: {fileID: 785195936}
+  pressTop: 3.1
+  pressBottom: 2.0
+  clickY: 2.1
+  pressOffset: 0
+  sideX: 0.2
+  releaseOthersBelow: -0.25
+  restY: 0
+  knockedY: -1.0
+  left: {fileID: 1509799961}
+  right: {fileID: 1734671297}
+  middle: {fileID: 0}
+  releaseSound: {fileID: 694272315}
   gamemanager: {fileID: 785195937}
 --- !u!1001 &1264174683
 PrefabInstance:

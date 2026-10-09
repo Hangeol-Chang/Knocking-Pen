@@ -299,11 +299,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7202f6bba58bd14ca46b88ec62b0a42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPos: {x: 0, y: 0, z: 0}
-  knockPos: {x: 0, y: 0, z: 0}
-  outPos: {x: 0, y: 0, z: 0}
-  AchivementBox: {fileID: 877483556}
-  AchivementText: {fileID: 877483557}
+  pressTop: 3.4
+  pressBottom: 2.8
+  clickY: 2.9
+  rearmY: 3.2
+  pressOffset: 0.6
+  restY: -0.45
   gamemanager: {fileID: 877483555}
 --- !u!82 &182961298
 AudioSource:

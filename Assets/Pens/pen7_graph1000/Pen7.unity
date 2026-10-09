@@ -219,14 +219,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 579234917}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 251843edc9bd3024084d4d5b96db8a40, type: 3}
+  m_Script: {fileID: 11500000, guid: c7202f6bba58bd14ca46b88ec62b0a42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPos: {x: 0, y: 0, z: 0}
-  knockPos: {x: 0, y: 0, z: 0}
-  outPos: {x: 0, y: 0, z: 0}
-  AchivementBox: {fileID: 190007783}
-  AchivementText: {fileID: 1383456313}
+  pressTop: 3.3
+  pressBottom: 3.05
+  clickY: 3.1
+  rearmY: 3.25
+  pressOffset: 0.5
+  restY: -0.45
   gamemanager: {fileID: 1023491725}
 --- !u!82 &579234921
 AudioSource:

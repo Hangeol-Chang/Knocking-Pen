@@ -285,14 +285,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9207a8173b912e24fb41800ed2ce0127, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPos: {x: 0, y: 0, z: 0}
-  knockPos: {x: 0, y: 0, z: 0}
-  outPos: {x: 0, y: 0, z: 0}
-  off1: {fileID: 1673295309}
-  off2: {fileID: 1669561143}
-  on2: {fileID: 857656926}
-  AchivementBox: {fileID: 1063435912}
-  AchivementText: {fileID: 1063435914}
+  pressTop: 3.35
+  pressBottom: 2.3
+  clickY: 2.4
+  pressOffset: 0.6
+  tapTop: 2.4
+  tapOffset: 3.85
+  restY: -0.5
+  knockedY: -1.4
+  tapOffSound: {fileID: 1673295309}
+  releaseSound: {fileID: 1669561143}
+  knockSound: {fileID: 857656926}
   gamemanager: {fileID: 1063435913}
 --- !u!82 &401105854
 AudioSource:

@@ -1163,10 +1163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd4d484f52d14404bbaca02ae6777e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knockPos: {x: 0, y: 0, z: 0}
-  off1: {fileID: 771831022}
-  off2: {fileID: 1715221073}
-  on2: {fileID: 1907884465}
-  AchivementBox: {fileID: 921069396}
-  AchivementText: {fileID: 1535889531}
+  tapOffSound: {fileID: 771831022}
+  releaseSound: {fileID: 1715221073}
+  knockSound: {fileID: 1907884465}
   gamemanager: {fileID: 710167097}

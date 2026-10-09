@@ -440,19 +440,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 256601381}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b8a6b67bbaae074b8ce8618062c54ee, type: 3}
+  m_Script: {fileID: 11500000, guid: b21b397fba53a414989942a5cda50b04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPos: {x: 0, y: 0, z: 0}
-  knockPos: {x: 0, y: 0, z: 0}
-  outPos: {x: 0, y: 0, z: 0}
-  off1: {fileID: 1742443395}
-  Right: {fileID: 25356977}
-  Left: {fileID: 114767232}
-  Middle: {fileID: 1310564784}
-  empty: {fileID: 1620102035}
-  AchivementBox: {fileID: 1155729828}
-  AchivementText: {fileID: 603646422}
+  pressTop: 2.9
+  pressBottom: 1.8
+  clickY: 2.2
+  pressOffset: 0.5
+  sideX: 0.2
+  releaseOthersBelow: -0.25
+  restY: -0.5
+  knockedY: -1.4
+  left: {fileID: 114767232}
+  right: {fileID: 25356977}
+  middle: {fileID: 1310564784}
+  releaseSound: {fileID: 1742443395}
   gamemanager: {fileID: 313327340}
 --- !u!1001 &313327339
 PrefabInstance:
@@ -694,7 +696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31f05bf1e5190574285c26fcb00f0022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  penb: {fileID: 1310564784}
+  target: {fileID: 1310564784}
 --- !u!1 &603646422 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5434758261854887233, guid: cf5fb5cb30a437a47a5b5ca515cb1a4a,

@@ -467,14 +467,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfaa2c7bdb1330a449cba75dc3f48577, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPos: {x: 0, y: 0, z: 0}
-  knockPos: {x: 0, y: 0, z: 0}
-  outPos: {x: 0, y: 0, z: 0}
-  AchivementBox: {fileID: 1056529971}
-  AchivementText: {fileID: 1446916623}
-  monamiKnockoff: {fileID: 1614599561}
+  releaseSound: {fileID: 1614599561}
   gamemanager: {fileID: 5434758262623104847}
-  guidebehaviour: {fileID: 791089693}
 --- !u!82 &761787887
 AudioSource:
   m_ObjectHideFlags: 0
@@ -618,11 +612,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 5434758262623104847}
+  pen: {fileID: 761787886}
   img1: {fileID: 576562458}
   img2: {fileID: 724761101}
   img3: {fileID: 1220955294}
-  AchivementBox: {fileID: 1056529971}
-  AchivementText: {fileID: 1446916623}
 --- !u!1 &952616095
 GameObject:
   m_ObjectHideFlags: 0
